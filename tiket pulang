@@ -1,0 +1,38 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int angka1, angka2;
+    double hasil;
+    char opr;
+
+    cout <<"Masukkan Angka ke-1 : ";
+    cin >> angka1;
+    cout <<"Operation : ";
+    cin >> opr;
+    cout <<"Masukkan Angka ke-2 : ";
+    cin >> angka2;
+
+    switch (opr) {
+    case '+':
+        hasil = angka1+angka2;
+        cout<<endl <<"hasil = "<<hasil<<endl;
+        break;
+    case '-':
+        hasil = angka1-angka2;
+        cout<<endl <<"hasil = "<<hasil<<endl;
+        break;
+    case '*':
+        hasil = angka1*angka2;
+        cout<<endl <<"hasil = "<<hasil<<endl;
+        break;
+    case '/':
+        hasil = angka1/angka2;
+        cout<<endl <<"hasil = "<<hasil<<endl;
+        break;
+    }
+    return 0;
+
+}

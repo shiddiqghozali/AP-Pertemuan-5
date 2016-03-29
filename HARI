@@ -1,0 +1,44 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int kode_hari;
+
+   cout <<"Menuntukan Hari"<<endl;
+    cout <<"1, Ahad"<<endl;
+    cout <<"2, Senin"<<endl;
+    cout <<"3, Selasa"<<endl;
+    cout <<"4, Rabu"<<endl;
+    cout <<"5, Kamis"<<endl;
+    cout <<"6, Jum'at"<<endl;
+    cout <<"7, Sabtu"<<endl;
+
+    cin >> kode_hari;
+
+   switch (kode_hari) {
+   case 1 :
+   cout <<"Ahad"<<endl;
+   break;
+   case 2 :
+   cout <<"Senin"<<endl;
+   break;
+   case 3 :
+   cout <<"Selasa"<<endl;
+   break;
+   case 4 :
+   cout <<"Rabu"<<endl;
+   break;
+   case 5 :
+   cout <<"Kamis"<<endl;
+   break;
+   case 6 :
+   cout <<"Jum'at"<<endl;
+   break;
+   case 7 :
+   cout <<"Sabtu"<<endl;
+   break;
+   }
+   return 0;
+}
